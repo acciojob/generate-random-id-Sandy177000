@@ -1,7 +1,14 @@
 function makeid(l) {
-  // write your code here
+
+	let c = "";
+
+	for(let i = 0;i<l;i++){
+		c+="a";
+	}
+
+	return c;
 }
 
-// Do not change the code below.
+
 const l = prompt("Enter a number.");
 alert(makeid(l));
